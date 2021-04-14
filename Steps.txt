@@ -1,0 +1,38 @@
+1. #Create new python environment
+conda create -n CarPrediction python=3.8.5
+
+2. #Activate carprediction environment
+activate CarPrediction
+
+3. #Change the path to working location
+E:
+cd E:\End-to-End-Project-Practise\01CarDataPrice
+
+4. # Type Dir command, it should contain app.py procfile
+
+5. # Open Jupyter Notebook
+jupyter notebook
+
+6. # Write code and model in Jupyter notebook .ipynb file
+
+7. # At the last, dump the model in pickle file
+import pickle
+file = open('random_forest_regression_model.pkl','wb')
+pickle.dump(rf_random,file)
+
+8. # Freeze requirements.txt will all installed packages
+pip freeze > requirements.txt
+
+9. # To check the list of environment created 
+conda info --envs
+
+10. # Active carprediction environment
+activate CarPrediction
+
+11. # install Flask
+pip install Flask
+
+12. # install jsonify
+pip install jsonify
+
+13. 
